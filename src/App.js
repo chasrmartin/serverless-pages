@@ -1,6 +1,6 @@
 // -*-mode: rjsx -*-
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import CountedText from './CountedText';
 
@@ -9,7 +9,6 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Morning Pages For Everyone</h1>
         </header>
         <p className="App-intro">
